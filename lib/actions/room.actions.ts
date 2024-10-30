@@ -75,7 +75,7 @@ export const getDocuments = async ( email: string ) => {
 
         return parseStringify(rooms)
     } catch (error) {
-        console.log(`Error happed while getting a rooms: ${error}`)
+        console.log(`Error happed while getting rooms: ${error}`)
     }
 }
 
